@@ -16,6 +16,14 @@ table .con {
     width:500px;
 }
 
+table .title {
+    width:100px;
+}
+
+table .title2, .title3 {
+    width:400px;
+}
+
 .list {
     margin-top:20px;
     width:80px;
