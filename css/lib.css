@@ -1,0 +1,27 @@
+/*  폰트 적용 */
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+html {
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+/* 고정형 레이아웃 용 */
+.con {
+    width:1180px;
+}
+
+.con-min-width {
+    min-width:1180px;
+}
+
+html, body {
+    overflow-x:hidden;
+}
+
+ul > li > a {
+    padding-left:10px;
+}
+
+ul > li:hover > a {
+    color:red;
+}
