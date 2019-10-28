@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>곽성룡 기술 블로그</title>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/lib.css">
+    <link rel="stylesheet" href="../css/article.css">
+</head>
+<body class="con">        
+    <h1>border-radius 속성 정리</h1>   
+    <div class="line"></div>
+    <ul>
+        <li> 과거에는 브라우저의 호환성을 위해 대부분 백그라운드 이미지를 활용하는 방법을 많이 사용했습니다.</li>
+        <li>하지만 최근에는 대부분의 브라우저가 둥글게 보이도록 만드는 <span style="font-weight:bold; color:deepskyblue;">border-radius</span>속성을 대부분 지원하기 때문에</li>
+        <li>어렵게 이미지 작업을 하지 않아도 css만으로 간단하게 사용 가능합니다.</li>
+        <li>참고로 테두리를 만드는 스타일인 속성 border가 없더라도 둥글게 표현되니 참고하세요.</li>
+        <li>아래는 간단한 문법, 사용 방법입니다.</li>
+        <div style="text-align:center; 5px; width:400px; padding:10px 0; margin:10px auto; background-color:lightskyblue; color:blue;">border-radius: value;</div>
+        <li>위의 방법으로 값을 지정할때는 얼마만큼 둥글게 표현할 것인지를 결정할 수 있습니다. </li>
+        <li>값은 아래와 같이 픽셀 또는 퍼센트를 입력하여 사용합니다.</li>
+        <div class="content">
+        border-radius: 2px; <br>
+        border-radius: 10px; <br>
+        // 픽셀(pixel) 단위의 값을 지정함 <br>
+        <br>
+        bordr-radius: 50%;<br>
+        // 상대적인 수치를 사용한 방법도 가능함
+        </div>
+        <li style="margin-top:10px;">위처럼 픽셀(px) 단위를 사용하기도 하지만 <span style="font-weight: bold; color:blue;">%를 사용하여
+        상대적인 수치 만큼 지정할 수도 있습니다.</span></li>
+        
+    <h2 style="color:lightskyblue;">! 픽셀과 퍼센트 값의 차이점은?</h2>
+    <ul>
+        <li>퍼센트를 사용한 방법의 경우 픽셀을 사용한 방법과 동일하지 않습니다. 이 둘은 차이점이 있는데 그 차이점은 % 단위 사용시 <span style="color:red; font-weight:bold;">사각형의 가로 길이에 대하여도 비율만큼의 크기가 둥글게 외곽선이 표현된다는 점입니다.</span></li>
+        <li style="padding-top:5px;">일반적인 픽셀 사용시에는 둥글게 표현되는 크기가 가로와 세로 동일한 값으로 적용됩니다. 그럼 아래부터는 다양한 예제를 보면서 자세히 알아보겠습니다.</li>
+    </ul>
+    </ul>    
+    <div class="list"><a href="../index.html">목록보기</a></div>
+</body>
+</html>
